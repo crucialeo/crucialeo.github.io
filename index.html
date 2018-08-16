@@ -1,139 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <title>my page</title>
         <link rel="stylesheet" href="https://cdn.bootcss.com/fullPage.js/2.9.4/jquery.fullpage.css">
-
-        <link href="Flat-UI-master/dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+        <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link href="Flat-UI-master/dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="Flat-UI-master/dist/css/flat-ui.css" rel="stylesheet">
         <link href="Flat-UI-master/docs/assets/css/demo.css" rel="stylesheet">
-
-        <link rel="shortcut icon" href="Flat-UI-master/img/favicon.ico">
-        <style>
-            #menu {
-        		margin: 0;
-        		padding: 0;
-        		position: fixed;
-        		left: 10px;
-        		top: 10px;
-        		list-style-type: none;
-        		z-index: 70;
-		    }
-		    #menu li {
-			    float: left;
-			    padding: 5px 10px;
-		    }
-		    #menu a {
-			    float: left;
-                color: rgba(60, 118, 61, 0.81);
-                text-decoration: none;
-            }
-    		#menu .active a {
-    			color: #FFF;
-    		}
-            .section {
-                text-align: center;
-            }
-            .section1 {
-                background: url(img/firstpage.jpg) center;
-                background-size: cover;
-            }
-            p {
-                font-weight: 300;
-                line-height: 1.1;
-                color: white;
-            }
-            h3 {
-                position: absolute;
-                top: 40px;
-                left: 50%;
-                transform: translateX(-50%);
-                color: #eef3f0;
-            }
-            .list-title {
-                text-shadow: 1px 2px #53c1e8, 2px 4px #a1d0f7;
-            }
-            .pjt-title {
-                text-shadow: 1px 2px #0db5bb, 2px 4px #d6f9f9;
-            }
-            .edu-title {
-                text-shadow: 1px 2px #d4801f, 2px 4px #ffdaaf;
-            }
-            .work-title {
-                text-shadow: 1px 2px #3f7bbb, 2px 4px #8baac7;
-            }
-            .item {
-                display: inline-block;
-                margin: 68px;
-                width: 290px;
-            }
-            .item-title {
-                display: inline;
-                font-size: 35px;
-            }
-            .item-img {
-                width: 100px;
-            }
-            .item-info {
-                display: block;
-                width: 200px;
-                margin-top: 15px;
-                margin-left: 39px;
-            }
-            .tag {
-                background-color: #007bb7;
-                color: #bfe8f3;
-                border-radius: 3px;
-                display: inline-block;
-                padding: 2px 8px;
-                margin-right: 6px;
-                margin-bottom: 5px;
-            }
-            .familiar {
-                opacity: 0.75;
-            }
-            .expert {
-                opacity: 1;
-            }
-            a {
-                color: #b1d6ef;
-            }
-            .email {
-                position: absolute;
-                display: inline-block;
-                transform: translateX(-50%);
-                bottom: 70px;
-            }
-            h1, h2, h4{
-                color: white;
-            }
-            .intro {
-                color: rgba(252, 252, 252, 0.88);
-            }
-            .name {
-                text-shadow: 1px 2px #08ab65, 2px 4px #b4d4f3;
-            }
-            .guadan {
-                font-size: 20px;
-                font-weight: normal;
-            }
-        </style>
+        <link rel="shortcut icon" href="Flat-UI-master/img/favicon.ico"> -->
+        <link rel="stylesheet" href="index.css">
+        <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
     </head>
     <body>
         <ul id="menu">
-        	<li data-menuanchor="section1" class="active">
+            <li data-menuanchor="section1" class="active">
                 <a href="#section1">首页</a>
             </li>
-        	<li data-menuanchor="section2">
+            <li data-menuanchor="section2">
                 <a href="#section2">项目</a>
             </li>
-        	<li data-menuanchor="section3">
+            <li data-menuanchor="section3">
                 <a href="#section3">技能</a>
             </li>
-        	<li data-menuanchor="section4">
+            <li data-menuanchor="section4">
                 <a href="#section4">教育</a>
             </li>
             <li data-menuanchor="section5">
@@ -143,71 +38,76 @@
                 <a href="#section6">感谢</a>
             </li>
         </ul>
-
-        <div id="gun">
+        <div id="gun" class="container-fluid" style="padding:0;">
             <div class="section section1">
                 <div class="srceen1">
                     <div class="slide slide1 first">
-                        <h2>Hello! Welcome to my page.</h2>
+                        <h1>Hello! Welcome to my page.</h1>
                         <br>
-                        <h4 class="name">辛智伟</h4>
-                        <h4 class="intro">随时准备出发的</h4>
-                        <h4 class="intro">Web 前端工程师</h4>
+                        <h2 class="name">辛智伟</h2>
+                        <h3 class="intro">一个努力向前奔跑的</h3>
+                        <h3 class="intro">Web 前端工程师</h3>
                         <br>
                         <br>
                         <br>
                         <p class="guadan">人生苦短，我用 Python</p>
                         <p class="guadan">感觉不够快？</p>
-                        <p class="guadan">我还有 JavaScript 😁</p>
+                        <p class="guadan">我还有 JavaScript ╰(￣▽￣)╭</p>
                     </div>
                 </div>
             </div>
             <div class="section section2">
-                <h3 class="pjt-title">个人项目</h3>
-                <div class="projects slide slide1">
-                    <div class="item">
-                        <img class="item-img" src="img/music.png">
-                        <span class="item-title">音乐播放器</span>
-                        <p class="item-info">基于原生 JS 和 HTML5 新特性实现的音乐播放器</p>
-                    </div>
-                    <div class="item">
-                        <img class="item-img" src="img/data.png">
-                        <span class="item-title">数据可视化</span>
-                        <p class="item-info">爬虫抓取豆瓣电影 Top 250 数据然后生成图表</p>
-                    </div>
-                    <div class="item">
-                        <img class="item-img" src="img/blog.png">
-                        <span class="item-title">博客</span>
-                        <p class="item-info">用 JS, Express, AJAX 实现简易博客，附带 TODO</p>
-                    </div>
-                    <div class="item">
-                        <img class="item-img" src="img/spider.png">
-                        <span class="item-title">爬虫</span>
-                        <p class="item-info">使用 JS 和 Python 实现爬虫爬取豆瓣电影，亚马逊</p>
-                    </div>
-                    <div class="item">
-                        <img class="item-img" src="img/game.png">
-                        <span class="item-title">小游戏</span>
-                        <p class="item-info">原生 JS 实现的打砖块和飞机大战游戏，带编辑器</p>
-                    </div>
-                    <div class="item">
-                        <img class="item-img" src="img/server.png">
-                        <span class="item-title" style="font-size:28px">Web Sever</span>
-                        <p class="item-info">基于 Python 的一个简易服务器 </p>
+                <div class="slide" style="position:relative;">
+                    <div class="row" style="display:flex;align-items:center;">
+                        <h3 class="project">工作项目</h3>
+                        <img class="img-responsive center-block col-xs-6 col-md-4" src="img/p1.png">
+                        <img class="img-responsive center-block col-xs-6 col-md-3" src="img/mp.png">
                     </div>
                 </div>
-                <div class="slide slide2">
-                    <img src="img/IMG_4750逍遥叹.PNG" style="width:1000px">
+                <div class="projects slide" style="margin-left:0;">
+                    <div class="row" style="position: relative;">
+                        <h3 class="pjt-title execise">练习项目</h3>
+                        <div class="item col-xs-4">
+                            <img class="item-img img-responsive center-block" src="img/music.png">
+                            <span class="item-title">音乐播放器</span>
+                            <p class="item-info">基于原生 JS 和 HTML5 实现的音乐播放器</p>
+                        </div>
+                        <div class="item col-xs-4">
+                            <img class="item-img img-responsive center-block" src="img/data.png">
+                            <span class="item-title">数据可视化</span>
+                            <p class="item-info">爬虫抓取豆瓣电影 Top 250 数据然后生成图表</p>
+                        </div>
+                        <div class="item col-xs-4">
+                            <img class="item-img img-responsive center-block" src="img/blog.png">
+                            <span class="item-title">博客</span>
+                            <p class="item-info">基于 node.js express框架的简易博客</p>
+                        </div>
+                        <div class="item col-xs-4">
+                            <img class="item-img img-responsive center-block" src="img/spider.png">
+                            <span class="item-title">爬虫</span>
+                            <p class="item-info">豆瓣电影 TOP250 和亚马逊爬虫</p>
+                        </div>
+                        <div class="item col-xs-4">
+                            <img class="item-img img-responsive center-block" src="img/game.png">
+                            <span class="item-title">小游戏</span>
+                            <p class="item-info">原生 JS 实现的打砖块和飞机大战游戏</p>
+                        </div>
+                        <div class="item col-xs-4">
+                            <img class="item-img img-responsive center-block" src="img/server.png">
+                            <span class="item-title">Web Sever</span>
+                            <p class="item-info">基于 Python 的一个简易服务器 </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="slide slide3">
-                    <img src="img/data1.png" style="width:400px">
-                    <img src="img/data2.png" style="width:400px">
-                    <img src="img/data3.png" style="width:400px">
+                <div class="slide" style="">
+                    <div class="row" style="display:flex;align-items:center;">
+                        <img class="img-responsive center-block col-xs-12 col-md-9" src="img/IMG_4750逍遥叹.PNG">
+                    </div>
                 </div>
             </div>
             <div class="section section3">
-                <h3 class="list-title">擅长技术</h3>
-                <div class="tech-list">
+                <h3 class="list-title pg-title">擅长技术</h3>
+                <div class="tech-list row">
                     <div class="tag-panel">
                         <div class="tag expert">HTML</div>
                         <div class="tag expert">CSS</div>
@@ -222,50 +122,48 @@
                     <div class="tag-panel">
                         <div class="tag familiar">Express</div>
                         <div class="tag expert">ECharts</div>
-                        <div class="tag familiar">jQuery</div>
-                        <div class="tag familiar">Lodash</div>
-                        <div class="tag expert">Cheerio</div>
+                        <div class="tag expert">jQuery</div>
+                        <div class="tag familiar">Git</div>
+                        <div class="tag expert">Flex</div>
                     </div>
                     <div class="tag-panel">
                         <div class="tag familiar">Python</div>
-                        <div class="tag familiar">Socket</div>
+                        <div class="tag familiar">SVN</div>
                     </div>
                     <div class="tag-panel">
-                        <div class="tag expert">Photoshop</div>
+                        <div class="tag expert">Layui</div>
                         <div class="tag familiar">Linux</div>
                     </div>
                 </div>
             </div>
             <div class="section section4">
-                <h3 class="edu-title">教育背景</h3>
-                <div class="edu">
+                <h3 class="edu-title pg-title">教育背景</h3>
+                <div class="edu row">
                     <h5>安徽工程大学</h5>
                     <h5>本科</h5>
                     <h5>计算机学院</h5>
                     <h5>信息与计算科学专业</h5>
-                    <h6>英语：CET-6</h6>
+                    <h5>英语：CET-6</h5>
                 </div>
             </div>
             <div class="section section5">
-                <div class="experiance">
-                    <h3 class="work-title">工作经历</h3>
+                <h3 class="work-title pg-title">工作经历</h3>
+                <div class="experiance row">
+                    <!-- <h3 class="work-title pg-title">工作经历</h3> -->
+                    <p style="font-size:25px;margin-top:30px;">宁波云橙体育文化有限公司</p>
+                    <p>前端开发</p>
+                    <p class="dur">2017年10月 - 至今</p>
+                    <p style="font-size:25px;">宁波小薇云集有限公司</p>
+                    <p>网站运营，爬虫</p>
+                    <p class="dur">2017年2月 - 2017年10月</p>
                     <p style="font-size:25px">宁波钟意饰品有限公司</p>
-                    <p>网站开发</p>
-                    <p>2015年1月 - 2016年12月</p>
-                    <p>帮助公司建立了自己的网站</p>
-
-                    <p style="font-size:25px;margin-top:30px;">宁波小薇云集有限公司</p>
-                    <p>爬虫开发</p>
-                    <p>2017年1月 - 2017年10月</p>
-                    <p>负责 Amazon 页面信息爬取和页面内容的提取分析</p>
+                    <p>网站运营</p>
+                    <p class="dur">2015年1月 - 2017年1月</p>
                 </div>
             </div>
             <div class="section section6">
-                <h3>感谢您抽空看这份简历</h3>
-                <div>
-                    <p>忘不了的初心，逃不掉的热爱</p>
-                    <p>迷茫过后才发现自己真正的心还是在这二进制的世界里</p>
-                    <p>现在，是时候回归了</p>
+                <div class="row">
+                    <h1 style="margin:0;">Thanks for watching</h1>
                     <p class="email">
                         Email:
                         <a href="mailto:pangmianbei@126.com" target="_blank">pangmianbei@126.com</a>
@@ -274,17 +172,22 @@
             </div>
         </div>
         <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
-	    <script src="https://cdn.bootcss.com/fullPage.js/2.9.4/jquery.fullpage.js"></script>
-        <script src="Flat-UI-master/dist/js/vendor/video.js"></script>
-        <script src="Flat-UI-master/dist/js/flat-ui.min.js"></script>
-        <script src="Flat-UI-master/docs/assets/js/application.js"></script>
+        <script src="https://cdn.bootcss.com/fullPage.js/2.9.4/jquery.fullpage.js"></script>
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- <script src="Flat-UI-master/dist/js/vendor/video.js"></script> -->
+        <!-- <script src="Flat-UI-master/dist/js/flat-ui.min.js"></script> -->
+        <!-- <script src="Flat-UI-master/docs/assets/js/application.js"></script> -->
         <script>
-            $(function(){
+            $(function() {
                 $('#gun').fullpage({
                     sectionsColor: ['#1bbc9b', '#4BBFC3', '#3CA9D8', '#FFAF38', '#34495E', '#3498DB'],
                     anchors: ['section1', 'section2', 'section3', 'section4', 'section5', 'section6'],
-		            menu: '#menu',
+                    menu: '#menu',
                     navigation: true,
+                    slidesNavigation: true,
+                    //是否显示横向幻灯片的导航，默认为false
+                    slidesNavPosition: 'bottom',
+                    controlArrows: false,
                 })
             })
         </script>
