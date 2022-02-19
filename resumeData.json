@@ -1,10 +1,12 @@
 {
   "main": {
     "name":"我是辛智伟",
-    "description":"Welcome to my page! I am a web development engineer and I use Vue.js to develop pages",
-    "image":"profilepic.jpg",
-    "bio":"我是宁波人，在职前端开发，在现公司负责开发面向宁波市财政局的 Web 项目。",
-    "tech":"技术栈：HTML、CSS、JavaScript、Vue、Element、Ant Design Vue。",
+    "description":"Welcome to my page! I am a web development engineer and I use Vue.js to develop web application.",
+    "image":"pic.png",
+    "bio":"我叫辛智伟。本科毕业后，进入一家电商公司从事运营工作。在运营岗位接触到了店铺页面建设、爬取网页内容等工作，这重新激发了自己本专业的兴趣。于是自学相关技术，重新找工作成为一名程序员。",
+    "mydes":"目前在现公司负责开发面向宁波市财政局的 Web 项目。该项目包含了智慧财政、公务用车、工作平台、数据分析、权限中心等多个系统，通过该项目加深了对于后台管理系统的理解。",
+    "mydesm":"个人有良好的代码习惯和沟通协作能力，对技术有热情，有较强的自学能力。纵观这几年的开发工作，是一个痛并快乐着的过程。有为了一个奇怪问题百思不得其解的烦恼，也有缩短了70%加载时间后的愉悦。作为一个练习时长4年半的前端“练习生”，我会继续不断学习，保持求知欲，保持前进。",
+    "tech":"技术栈：HTML、CSS、JavaScript、Vue、Element、Ant Design Vue、Webpack、Echarts、Node.js。",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "pangmianbei@126.com",
     "phone": "186-6859-8072",
@@ -62,7 +64,7 @@
         "company":"浙江易桥软件开发有限公司",
         "title":"前端开发",
         "years":"2019/06 - 至今",
-        "description":"负责前端页面功能模块的开发，组件的封装，前端开发框架的搭建，对数据量大的页面和出现崩溃问题的地方进行针对性的优化，提升渲染速度。推进代码格式规范，优化组件设计，减少代码冗余，提高开发效率。"
+        "description":"负责前端功能的开发，组件的封装，对应用进行性能优化，提升首屏渲染速度，减小打包体积。搭建前端开发框架，使用 prettier, husky 等工具推进工程代码规范，提高开发效率。"
       },
       {
         "company":"宁波云橙体育有限公司",
@@ -166,7 +168,7 @@
         "title":"宁波智慧财政",
         "category":"宁波市财政局目前为止最大的软件项目，涵盖了宁波市所有的预算单位和业务处室，是市财政局信息化平台建设重点项目。",
         "image":"zhcz.webp",
-        "tech":"Vue,Vue-Router,Vuex,Vue-CLI,Element UI",
+        "tech":"Vue,Vue-Router,Vuex,Vue-CLI,Element UI,Echarts,Ant Design Vue,vxe-table",
         "url":"https://www.canadianwanderlust.com"
       },
       {
@@ -184,10 +186,10 @@
         "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"财政工作平台",
-        "category":"宁波市财政局依托原有系统技术架构，升级优化现有各系统功能，实现“工作平台”与各应用系统的无缝集成的项目。",
-        "image":"gzpt.webp",
-        "tech":"jQuery,Bootstrap,FreeMarker,Portlet",
+        "title":"个人项目-电商数据平台",
+        "category":"通过 Websocket 实时获取数据并用图表展示，可以切换全屏和主题。前端使用 Vue 和 Echarts 实现；后端使用 Koa2 和 ws 开发。",
+        "image":"dssjpt.webp",
+        "tech":"Vue,Vue-Router,Vuex,Vue-CLI,Echarts,Koa2,Websocket",
         "url":"http://www.timbakerdev.com"
       },
       {
